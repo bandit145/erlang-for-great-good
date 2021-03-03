@@ -13,6 +13,11 @@ start_link(Name) ->
 stop(Name) ->
     ManagerPid = regis:whereis({events, Name}),
     gen_event:stop(ManagerPid).
+%%finish this with  sending msg to queue
+queue(Name) ->
+    ManagerPid = regis:whereis({events, Name}),
+    notify(ManagerPid, ).
+
 
 add_handler(Name, Handler, Args) ->
     ManagerPid = regis:whereis({events, Name}),

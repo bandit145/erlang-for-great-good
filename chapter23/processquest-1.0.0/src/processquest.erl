@@ -26,6 +26,11 @@ stop(_) -> ok.
 %%% USER INTERFACE %%%
 %%%%%%%%%%%%%%%%%%%%%%
 
+pause(Name) ->
+	Pid = regis:whereis(Name),
+	io:format("Name? ~s~n", [Name]).
+	%pq_supersup:pause(Name).
+
 %% Starts a player
 start_player(Name, Info) ->
     pq_supersup:start_player(Name, Info). 

@@ -87,6 +87,14 @@ handle_cast(Event, S = #state{name=N, socket=Sock}) when element(1, Event) =:= N
 handle_info(?SOCK("quit"++_), S) ->
     processquest:stop_player(S#state.name),
     {stop, normal, S};
+
+%%pause functionality
+handle_info(?SOCK("pause"++_), S) ->
+    io:format("Pause msg recieved~n"),
+    io:format("State Dump ~w~n", [S]),
+    %processquest:pause(S#state.name), %send pause to pq event handler and have it queue
+    {noreply, S};
+    
 %% We receive a string while looking for a name -- we assume that hte
 %% string is the name.
 handle_info(?SOCK(Str), S = #state{next=name}) ->
