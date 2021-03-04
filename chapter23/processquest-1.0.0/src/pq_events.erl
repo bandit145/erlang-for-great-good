@@ -3,7 +3,7 @@
 %%% scale on behalf of the pq_player process.
 -module(pq_events).
 -export([killed/3, location/3, lvl_up/5, buy/4, sell/3]).
--export([start_link/1, stop/1, add_handler/3, delete_handler/3, notify/2]).
+-export([start_link/1, stop/1, add_handler/3, delete_handler/3, notify/2, pause/1, resume/1]).
 
 start_link(Name) ->
     {ok, Pid} = gen_event:start_link(),
@@ -14,10 +14,11 @@ stop(Name) ->
     ManagerPid = regis:whereis({events, Name}),
     gen_event:stop(ManagerPid).
 %%finish this with  sending msg to queue
-queue(Name) ->
-    ManagerPid = regis:whereis({events, Name}),
-    notify(ManagerPid, ).
+pause(Name) ->
+    notify(Name, pause).
 
+resume(Name) ->
+    notify(Name, resume).
 
 add_handler(Name, Handler, Args) ->
     ManagerPid = regis:whereis({events, Name}),

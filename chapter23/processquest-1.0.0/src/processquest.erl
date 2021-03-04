@@ -11,7 +11,7 @@
 -module(processquest).
 -behaviour(application).
 -export([start/2, stop/1]).
--export([start_player/2, stop_player/1, subscribe/3]).
+-export([start_player/2, stop_player/1, subscribe/3, pause/1, resume/1]).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% APPLICATION CALLBACKS %%%
@@ -27,9 +27,12 @@ stop(_) -> ok.
 %%%%%%%%%%%%%%%%%%%%%%
 
 pause(Name) ->
-	Pid = regis:whereis(Name),
-	io:format("Name? ~s~n", [Name]).
-	%pq_supersup:pause(Name).
+	io:format("Name? ~s~n", [Name]),
+	pq_events:pause(Name).
+
+resume(Name) ->
+	io:format("Name? ~s~n", [Name]),
+	pq_events:resume(Name).
 
 %% Starts a player
 start_player(Name, Info) ->

@@ -1,5 +1,5 @@
 %% coding: utf-8
-%% app generated at {2021,3,3} {16,42,50}
+%% app generated at {2021,3,4} {15,28,27}
 {application,processquest,
              [{description,"Game inspired by the Progress Quest game (http://progressquest.com)"},
               {vsn,"1.0.0"},

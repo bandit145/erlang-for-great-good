@@ -92,7 +92,12 @@ handle_info(?SOCK("quit"++_), S) ->
 handle_info(?SOCK("pause"++_), S) ->
     io:format("Pause msg recieved~n"),
     io:format("State Dump ~w~n", [S]),
-    %processquest:pause(S#state.name), %send pause to pq event handler and have it queue
+    processquest:pause(S#state.name), %send pause to pq event handler and have it queue
+    {noreply, S};
+
+handle_info(?SOCK("resume"++_), S) ->
+    io:format("resume msg recieved~n"),
+    processquest:resume(S#state.name), %send pause to pq event handler and have it queue
     {noreply, S};
     
 %% We receive a string while looking for a name -- we assume that hte

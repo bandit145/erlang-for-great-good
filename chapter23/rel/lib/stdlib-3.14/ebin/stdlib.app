@@ -1,5 +1,5 @@
 %% coding: utf-8
-%% app generated at {2021,3,3} {16,42,50}
+%% app generated at {2021,3,4} {15,28,27}
 {application,stdlib,
              [{description,"ERTS  CXC 138 10"},
               {vsn,"3.14"},
