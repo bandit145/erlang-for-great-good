@@ -1,0 +1,38 @@
+=== Suite started at 2021-03-09 15:15:01
+=== Starting test, 1 test cases
+=cases         1
+=user          pbove
+=host          pbove
+=hosts         pbove 
+=emulator_vsn  11.1.7
+=emulator      beam
+=otp_release   23
+=started       2021-03-09 15:15:01
+=case          ct_framework:init_per_suite
+=logfile       ct_framework.init_per_suite.html
+=group_props   [{suite,state_SUITE}]
+=started       2021-03-09 15:15:01
+=ended         2021-03-09 15:15:01
+=result        ok
+=elapsed       0.0
+=case          state_SUITE:ets_tests
+=logfile       state_suite.ets_tests.html
+=started       2021-03-09 15:15:01
+=ended         2021-03-09 15:15:01
+=result        ok
+=elapsed       1.0e-5
+=case          ct_framework:end_per_suite
+=logfile       ct_framework.end_per_suite.html
+=group_props   [{suite,state_SUITE}]
+=started       2021-03-09 15:15:01
+=ended         2021-03-09 15:15:01
+=result        ok
+=elapsed       1.0e-6
+=group_time    0.054s
+=== TEST COMPLETE, 1 ok, 0 failed of 1 test cases
+
+=finished      2021-03-09 15:15:01
+=failed        0
+=successful    1
+=user_skipped  0
+=auto_skipped  0

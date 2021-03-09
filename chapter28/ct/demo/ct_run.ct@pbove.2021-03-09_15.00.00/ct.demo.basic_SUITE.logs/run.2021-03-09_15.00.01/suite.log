@@ -1,0 +1,63 @@
+=== Suite started at 2021-03-09 15:00:01
+=== Starting test, 2 test cases
+=cases         2
+=user          pbove
+=host          pbove
+=hosts         pbove 
+=emulator_vsn  11.1.7
+=emulator      beam
+=otp_release   23
+=started       2021-03-09 15:00:01
+=case          ct_framework:init_per_suite
+=logfile       ct_framework.init_per_suite.html
+=group_props   [{suite,basic_SUITE}]
+=started       2021-03-09 15:00:01
+=ended         2021-03-09 15:00:01
+=result        ok
+=elapsed       0.0
+=case          basic_SUITE:test1
+=logfile       basic_suite.test1.html
+=started       2021-03-09 15:00:01
+=ended         2021-03-09 15:00:01
+=result        ok
+=elapsed       1.0e-6
+=case          basic_SUITE:test2
+=logfile       basic_suite.test2.html
+=started       2021-03-09 15:00:01
+=ended         2021-03-09 15:00:01
+=result        failed: {badarith,
+                           [{basic_SUITE,test2,1,
+                                [{file,"basic_SUITE.erl"},{line,13}]},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{basic_SUITE,
+                                                                             test2,
+                                                                             13},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 2 of 2 ***
+=case          ct_framework:end_per_suite
+=logfile       ct_framework.end_per_suite.html
+=group_props   [{suite,basic_SUITE}]
+=started       2021-03-09 15:00:01
+=ended         2021-03-09 15:00:01
+=result        ok
+=elapsed       1.0e-6
+=group_time    0.089s
+=== TEST COMPLETE, 1 ok, 1 failed of 2 test cases
+
+=finished      2021-03-09 15:00:01
+=failed        1
+=successful    1
+=user_skipped  0
+=auto_skipped  0

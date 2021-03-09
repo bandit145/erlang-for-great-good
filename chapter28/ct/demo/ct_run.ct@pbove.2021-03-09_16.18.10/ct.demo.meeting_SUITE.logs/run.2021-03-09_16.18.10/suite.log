@@ -1,0 +1,1310 @@
+=== Suite started at 2021-03-09 16:18:10
+=== Starting test (with repeated test cases)
+=cases         unknown
+=user          pbove
+=host          pbove
+=hosts         pbove 
+=emulator_vsn  11.1.7
+=emulator      beam
+=otp_release   23
+=started       2021-03-09 16:18:10
+=case          ct_framework:init_per_suite
+=logfile       ct_framework.init_per_suite.html
+=group_props   [{suite,meeting_SUITE}]
+=started       2021-03-09 16:18:10
+=ended         2021-03-09 16:18:10
+=result        ok
+=elapsed       0.0
+=case          meeting_SUITE:init_per_group
+=logfile       meeting_suite.init_per_group.html
+=group_props   [{name,session}]
+=started       2021-03-09 16:18:10
+=ended         2021-03-09 16:18:10
+=result        ok
+=elapsed       4.7e-4
+=case          meeting_SUITE:init_per_group
+=logfile       meeting_suite.init_per_group.2.html
+=group_props   [{name,clients},parallel,{repeat,10}]
+=started       2021-03-09 16:18:10
+=ended         2021-03-09 16:18:10
+=result        ok
+=elapsed       2.0e-6
+=case          meeting_SUITE:carla
+=logfile       meeting_suite.carla.34.html
+=started       2021-03-09 16:18:10
+=ended         2021-03-09 16:18:10
+=result        failed: {undef,
+                           [{meeting_SUITE,carla,
+                                [[{watchdog,<0.177.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.carla.34.html"},
+                                  {tc_group_properties,
+                                      [{name,clients},parallel,{repeat,10}]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             carla},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 1 ***
+=case          meeting_SUITE:mark
+=logfile       meeting_suite.mark.8.html
+=started       2021-03-09 16:18:10
+=ended         2021-03-09 16:18:10
+=result        failed: {undef,
+                           [{meeting_SUITE,mark,
+                                [[{watchdog,<0.178.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.mark.8.html"},
+                                  {tc_group_properties,
+                                      [{name,clients},parallel,{repeat,10}]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             mark},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 2 ***
+=case          meeting_SUITE:dog
+=logfile       meeting_suite.dog.66.html
+=started       2021-03-09 16:18:10
+=ended         2021-03-09 16:18:10
+=result        failed: {undef,
+                           [{meeting_SUITE,dog,
+                                [[{watchdog,<0.179.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.dog.66.html"},
+                                  {tc_group_properties,
+                                      [{name,clients},parallel,{repeat,10}]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             dog},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 3 ***
+=case          meeting_SUITE:end_per_group
+=logfile       meeting_suite.end_per_group.html
+=group_props   [{name,clients},parallel,{repeat,10}]
+=started       2021-03-09 16:18:10
+=ended         2021-03-09 16:18:11
+=result        ok
+=elapsed       2.0e-6
+=group_time    0.061s
+=case          meeting_SUITE:init_per_group
+=logfile       meeting_suite.init_per_group.98.html
+=group_props   [{repeat,9},{name,clients},parallel]
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        ok
+=elapsed       0.0
+=case          meeting_SUITE:carla
+=logfile       meeting_suite.carla.7.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,carla,
+                                [[{watchdog,<0.199.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.carla.7.html"},
+                                  {tc_group_properties,
+                                      [{repeat,9},{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             carla},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 4 ***
+=case          meeting_SUITE:mark
+=logfile       meeting_suite.mark.39.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,mark,
+                                [[{watchdog,<0.201.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.mark.39.html"},
+                                  {tc_group_properties,
+                                      [{repeat,9},{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             mark},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 5 ***
+=case          meeting_SUITE:dog
+=logfile       meeting_suite.dog.71.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,dog,
+                                [[{watchdog,<0.200.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.dog.71.html"},
+                                  {tc_group_properties,
+                                      [{repeat,9},{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             dog},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 6 ***
+=case          meeting_SUITE:end_per_group
+=logfile       meeting_suite.end_per_group.103.html
+=group_props   [{repeat,9},{name,clients},parallel]
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        ok
+=elapsed       1.0e-6
+=group_time    0.062s
+=case          meeting_SUITE:init_per_group
+=logfile       meeting_suite.init_per_group.135.html
+=group_props   [{repeat,8},{name,clients},parallel]
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        ok
+=elapsed       0.0
+=case          meeting_SUITE:carla
+=logfile       meeting_suite.carla.130.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,carla,
+                                [[{watchdog,<0.220.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.carla.130.html"},
+                                  {tc_group_properties,
+                                      [{repeat,8},{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             carla},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 7 ***
+=case          meeting_SUITE:mark
+=logfile       meeting_suite.mark.162.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,mark,
+                                [[{watchdog,<0.221.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.mark.162.html"},
+                                  {tc_group_properties,
+                                      [{repeat,8},{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             mark},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 8 ***
+=case          meeting_SUITE:dog
+=logfile       meeting_suite.dog.167.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,dog,
+                                [[{watchdog,<0.223.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.dog.167.html"},
+                                  {tc_group_properties,
+                                      [{repeat,8},{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             dog},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 9 ***
+=case          meeting_SUITE:end_per_group
+=logfile       meeting_suite.end_per_group.199.html
+=group_props   [{repeat,8},{name,clients},parallel]
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        ok
+=elapsed       0.0
+=group_time    0.059s
+=case          meeting_SUITE:init_per_group
+=logfile       meeting_suite.init_per_group.231.html
+=group_props   [{repeat,7},{name,clients},parallel]
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        ok
+=elapsed       1.0e-6
+=case          meeting_SUITE:carla
+=logfile       meeting_suite.carla.263.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,carla,
+                                [[{watchdog,<0.245.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.carla.263.html"},
+                                  {tc_group_properties,
+                                      [{repeat,7},{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             carla},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 10 ***
+=case          meeting_SUITE:mark
+=logfile       meeting_suite.mark.295.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,mark,
+                                [[{watchdog,<0.243.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.mark.295.html"},
+                                  {tc_group_properties,
+                                      [{repeat,7},{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             mark},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 11 ***
+=case          meeting_SUITE:dog
+=logfile       meeting_suite.dog.327.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,dog,
+                                [[{watchdog,<0.242.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.dog.327.html"},
+                                  {tc_group_properties,
+                                      [{repeat,7},{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             dog},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 12 ***
+=case          meeting_SUITE:end_per_group
+=logfile       meeting_suite.end_per_group.6.html
+=group_props   [{repeat,7},{name,clients},parallel]
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        ok
+=elapsed       2.0e-6
+=group_time    0.098s
+=case          meeting_SUITE:init_per_group
+=logfile       meeting_suite.init_per_group.38.html
+=group_props   [{repeat,6},{name,clients},parallel]
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        ok
+=elapsed       2.0e-6
+=case          meeting_SUITE:carla
+=logfile       meeting_suite.carla.70.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,carla,
+                                [[{watchdog,<0.266.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.carla.70.html"},
+                                  {tc_group_properties,
+                                      [{repeat,6},{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             carla},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 13 ***
+=case          meeting_SUITE:mark
+=logfile       meeting_suite.mark.102.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,mark,
+                                [[{watchdog,<0.267.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.mark.102.html"},
+                                  {tc_group_properties,
+                                      [{repeat,6},{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             mark},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 14 ***
+=case          meeting_SUITE:dog
+=logfile       meeting_suite.dog.134.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,dog,
+                                [[{watchdog,<0.265.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.dog.134.html"},
+                                  {tc_group_properties,
+                                      [{repeat,6},{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             dog},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 15 ***
+=case          meeting_SUITE:end_per_group
+=logfile       meeting_suite.end_per_group.166.html
+=group_props   [{repeat,6},{name,clients},parallel]
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        ok
+=elapsed       0.0
+=group_time    0.062s
+=case          meeting_SUITE:init_per_group
+=logfile       meeting_suite.init_per_group.198.html
+=group_props   [{repeat,5},{name,clients},parallel]
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        ok
+=elapsed       1.0e-6
+=case          meeting_SUITE:carla
+=logfile       meeting_suite.carla.230.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,carla,
+                                [[{watchdog,<0.288.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.carla.230.html"},
+                                  {tc_group_properties,
+                                      [{repeat,5},{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             carla},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 16 ***
+=case          meeting_SUITE:mark
+=logfile       meeting_suite.mark.262.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,mark,
+                                [[{watchdog,<0.287.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.mark.262.html"},
+                                  {tc_group_properties,
+                                      [{repeat,5},{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             mark},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 17 ***
+=case          meeting_SUITE:dog
+=logfile       meeting_suite.dog.294.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,dog,
+                                [[{watchdog,<0.289.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.dog.294.html"},
+                                  {tc_group_properties,
+                                      [{repeat,5},{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             dog},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 18 ***
+=case          meeting_SUITE:end_per_group
+=logfile       meeting_suite.end_per_group.326.html
+=group_props   [{repeat,5},{name,clients},parallel]
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        ok
+=elapsed       2.0e-6
+=group_time    0.062s
+=case          meeting_SUITE:init_per_group
+=logfile       meeting_suite.init_per_group.358.html
+=group_props   [{repeat,4},{name,clients},parallel]
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        ok
+=elapsed       2.0e-6
+=case          meeting_SUITE:carla
+=logfile       meeting_suite.carla.390.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,carla,
+                                [[{watchdog,<0.310.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.carla.390.html"},
+                                  {tc_group_properties,
+                                      [{repeat,4},{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             carla},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 19 ***
+=case          meeting_SUITE:mark
+=logfile       meeting_suite.mark.194.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,mark,
+                                [[{watchdog,<0.308.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.mark.194.html"},
+                                  {tc_group_properties,
+                                      [{repeat,4},{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             mark},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 20 ***
+=case          meeting_SUITE:dog
+=logfile       meeting_suite.dog.422.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,dog,
+                                [[{watchdog,<0.311.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.dog.422.html"},
+                                  {tc_group_properties,
+                                      [{repeat,4},{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             dog},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 21 ***
+=case          meeting_SUITE:end_per_group
+=logfile       meeting_suite.end_per_group.226.html
+=group_props   [{repeat,4},{name,clients},parallel]
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        ok
+=elapsed       3.0e-6
+=group_time    0.064s
+=case          meeting_SUITE:init_per_group
+=logfile       meeting_suite.init_per_group.258.html
+=group_props   [{repeat,3},{name,clients},parallel]
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        ok
+=elapsed       1.0e-6
+=case          meeting_SUITE:carla
+=logfile       meeting_suite.carla.290.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,carla,
+                                [[{watchdog,<0.331.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.carla.290.html"},
+                                  {tc_group_properties,
+                                      [{repeat,3},{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             carla},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 22 ***
+=case          meeting_SUITE:mark
+=logfile       meeting_suite.mark.322.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,mark,
+                                [[{watchdog,<0.330.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.mark.322.html"},
+                                  {tc_group_properties,
+                                      [{repeat,3},{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             mark},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 23 ***
+=case          meeting_SUITE:dog
+=logfile       meeting_suite.dog.354.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,dog,
+                                [[{watchdog,<0.333.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.dog.354.html"},
+                                  {tc_group_properties,
+                                      [{repeat,3},{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             dog},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 24 ***
+=case          meeting_SUITE:end_per_group
+=logfile       meeting_suite.end_per_group.386.html
+=group_props   [{repeat,3},{name,clients},parallel]
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        ok
+=elapsed       0.0
+=group_time    0.062s
+=case          meeting_SUITE:init_per_group
+=logfile       meeting_suite.init_per_group.418.html
+=group_props   [{repeat,2},{name,clients},parallel]
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        ok
+=elapsed       0.0
+=case          meeting_SUITE:carla
+=logfile       meeting_suite.carla.450.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,carla,
+                                [[{watchdog,<0.351.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.carla.450.html"},
+                                  {tc_group_properties,
+                                      [{repeat,2},{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             carla},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 25 ***
+=case          meeting_SUITE:mark
+=logfile       meeting_suite.mark.482.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,mark,
+                                [[{watchdog,<0.355.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.mark.482.html"},
+                                  {tc_group_properties,
+                                      [{repeat,2},{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             mark},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 26 ***
+=case          meeting_SUITE:dog
+=logfile       meeting_suite.dog.514.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,dog,
+                                [[{watchdog,<0.353.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.dog.514.html"},
+                                  {tc_group_properties,
+                                      [{repeat,2},{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             dog},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 27 ***
+=case          meeting_SUITE:end_per_group
+=logfile       meeting_suite.end_per_group.546.html
+=group_props   [{repeat,2},{name,clients},parallel]
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        ok
+=elapsed       1.0e-6
+=group_time    0.068s
+=case          meeting_SUITE:init_per_group
+=logfile       meeting_suite.init_per_group.578.html
+=group_props   [{name,clients},parallel]
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        ok
+=elapsed       1.0e-6
+=case          meeting_SUITE:carla
+=logfile       meeting_suite.carla.5.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,carla,
+                                [[{watchdog,<0.375.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.carla.5.html"},
+                                  {tc_group_properties,
+                                      [{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             carla},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 28 ***
+=case          meeting_SUITE:mark
+=logfile       meeting_suite.mark.37.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,mark,
+                                [[{watchdog,<0.373.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.mark.37.html"},
+                                  {tc_group_properties,
+                                      [{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             mark},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 29 ***
+=case          meeting_SUITE:dog
+=logfile       meeting_suite.dog.69.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,dog,
+                                [[{watchdog,<0.377.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.dog.69.html"},
+                                  {tc_group_properties,
+                                      [{name,clients},parallel]},
+                                  {tc_group_path,
+                                      [[{name,session}],
+                                       [{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             dog},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 30 ***
+=case          meeting_SUITE:end_per_group
+=logfile       meeting_suite.end_per_group.101.html
+=group_props   [{name,clients},parallel]
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        ok
+=elapsed       0.0
+=group_time    0.056s
+=case          meeting_SUITE:all_same_owner
+=logfile       meeting_suite.all_same_owner.html
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        failed: {undef,
+                           [{meeting_SUITE,all_same_owner,
+                                [[{watchdog,<0.383.0>},
+                                  {tc_logfile,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/meeting_suite.all_same_owner.html"},
+                                  {tc_group_properties,[{name,session}]},
+                                  {tc_group_path,[[{suite,meeting_SUITE}]]},
+                                  {data_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_16.18.10/ct.demo.meeting_SUITE.logs/run.2021-03-09_16.18.10/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1754}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1263}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,1195}]}]}, [{meeting_SUITE,
+                                                                             all_same_owner},
+                                                                            {test_server,
+                                                                             ts_tc,
+                                                                             1754},
+                                                                            {test_server,
+                                                                             run_test_case_eval1,
+                                                                             1263},
+                                                                            {test_server,
+                                                                             run_test_case_eval,
+                                                                             1195}]
+=== *** FAILED test case 31 ***
+=case          meeting_SUITE:end_per_group
+=logfile       meeting_suite.end_per_group.133.html
+=group_props   [{name,session}]
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        ok
+=elapsed       4.0e-6
+=group_time    0.997s
+=case          ct_framework:end_per_suite
+=logfile       ct_framework.end_per_suite.html
+=group_props   [{suite,meeting_SUITE}]
+=started       2021-03-09 16:18:11
+=ended         2021-03-09 16:18:11
+=result        ok
+=elapsed       0.0
+=group_time    1.057s
+=== TEST COMPLETE, 0 ok, 31 failed of 31 test cases
+
+=finished      2021-03-09 16:18:11
+=failed        31
+=successful    0
+=user_skipped  0
+=auto_skipped  0

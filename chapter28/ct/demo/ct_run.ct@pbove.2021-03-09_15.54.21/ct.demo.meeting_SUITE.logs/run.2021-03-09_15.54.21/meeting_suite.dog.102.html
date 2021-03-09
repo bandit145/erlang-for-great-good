@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Test meeting_SUITE:dog result</title>
+<meta http-equiv="cache-control" content="no-cache"></meta>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+<link rel="stylesheet" href="../../ct_default.css" type="text/css"></link>
+<script type="text/javascript" src="../../jquery-latest.js"></script>
+<script type="text/javascript" src="../../jquery.tablesorter.min.js"></script>
+</head>
+<body>
+
+<a name="top"></a><pre>
+=== Test case: <a href="meeting_suite.src.html#dog-1">meeting_SUITE:dog/1</a> (click for source code)
+
+=== Config value:
+
+    [{watchdog,&lt;0.343.0&gt;},
+     {tc_logfile,"/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_15.54.21/ct.demo.meeting_SUITE.logs/run.2021-03-09_15.54.21/meeting_suite.dog.102.html"},
+     {tc_group_properties,[{repeat,2},{name,clients},parallel]},
+     {tc_group_path,[[{name,session}],[{suite,meeting_SUITE}]]},
+     {data_dir,"/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/meeting_SUITE_data/"},
+     {priv_dir,"/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_15.54.21/ct.demo.meeting_SUITE.logs/run.2021-03-09_15.54.21/log_private/"}]
+
+=== Current directory is "/home/pbove/git/erlang-for-great-good/chapter28/ct/demo/ct_run.ct@pbove.2021-03-09_15.54.21"
+
+=== Started at 2021-03-09 15:54:22
+
+<br />
+
+</pre>
+<div class="ct_error_notify"><pre><b>*** CT Error Notification 2021-03-09 15:54:22.194 ***</b>
+meeting_SUITE:dog failed
+Reason: {undef,[{meeting_SUITE,...},{...}|...]}
+
+<a href="#end">Full error description and stacktrace</a>
+</pre></div>
+<pre>
+<a name="end"></a>
+
+
+=== Ended at 2021-03-09 15:54:22
+=== Location: [{meeting_SUITE,dog},
+ {test_server,ts_tc,1754},
+ {test_server,run_test_case_eval1,1263},
+ {test_server,run_test_case_eval,1195}]
+=== === Reason: undefined function meeting_SUITE:dog/1
+  in function  test_server:ts_tc/3 (test_server.erl, line 1754)
+  in call from test_server:run_test_case_eval1/6 (test_server.erl, line 1263)
+  in call from test_server:run_test_case_eval/9 (test_server.erl, line 1195)
