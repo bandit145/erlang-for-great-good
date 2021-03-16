@@ -1,0 +1,61 @@
+=== Suite started at 2021-03-10 13:20:04
+=== Starting test, 2 test cases
+=cases         2
+=user          pbove
+=host          pbove
+=hosts         pbove 
+=emulator_vsn  11.1.7
+=emulator      beam
+=otp_release   23
+=started       2021-03-10 13:20:04
+=case          mafiapp_SUITE:init_per_suite
+=logfile       mafiapp_suite.init_per_suite.html
+=started       2021-03-10 13:20:04
+=ended         2021-03-10 13:20:04
+=result        ok
+=elapsed       0.145382
+=case          mafiapp_SUITE:add_service
+=logfile       mafiapp_suite.add_service.html
+=started       2021-03-10 13:20:04
+=ended         2021-03-10 13:20:04
+=result        ok
+=elapsed       6.19e-4
+=case          mafiapp_SUITE:friend_by_name
+=logfile       mafiapp_suite.friend_by_name.html
+=started       2021-03-10 13:20:04
+=ended         2021-03-10 13:20:04
+=result        failed: {{badmatch,{error,unknown_friend}},
+                        [{mafiapp_SUITE,friend_by_name,1,
+                             [{file,"mafiapp_SUITE.erl"},{line,44}]},
+                         {test_server,ts_tc,3,
+                             [{file,"test_server.erl"},{line,1754}]},
+                         {test_server,run_test_case_eval1,6,
+                             [{file,"test_server.erl"},{line,1263}]},
+                         {test_server,run_test_case_eval,9,
+                             [{file,"test_server.erl"},{line,1195}]}]}, [{mafiapp_SUITE,
+                                                                          friend_by_name,
+                                                                          44},
+                                                                         {test_server,
+                                                                          ts_tc,
+                                                                          1754},
+                                                                         {test_server,
+                                                                          run_test_case_eval1,
+                                                                          1263},
+                                                                         {test_server,
+                                                                          run_test_case_eval,
+                                                                          1195}]
+=== *** FAILED test case 2 of 2 ***
+=case          mafiapp_SUITE:end_per_suite
+=logfile       mafiapp_suite.end_per_suite.html
+=started       2021-03-10 13:20:04
+=ended         2021-03-10 13:20:04
+=result        ok
+=elapsed       0.007857
+=group_time    0.229s
+=== TEST COMPLETE, 1 ok, 1 failed of 2 test cases
+
+=finished      2021-03-10 13:20:04
+=failed        1
+=successful    1
+=user_skipped  0
+=auto_skipped  0

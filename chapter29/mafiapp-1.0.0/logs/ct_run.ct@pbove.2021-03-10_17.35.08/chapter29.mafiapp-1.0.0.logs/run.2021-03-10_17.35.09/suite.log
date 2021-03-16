@@ -1,0 +1,54 @@
+=== Suite started at 2021-03-10 17:35:09
+=== Starting test, 4 test cases
+=cases         4
+=user          pbove
+=host          pbove
+=hosts         pbove 
+=emulator_vsn  11.1.7
+=emulator      beam
+=otp_release   23
+=started       2021-03-10 17:35:09
+=case          mafiapp_SUITE:init_per_suite
+=logfile       mafiapp_suite.init_per_suite.html
+=started       2021-03-10 17:35:09
+=ended         2021-03-10 17:35:09
+=result        ok
+=elapsed       0.136641
+=case          mafiapp_SUITE:add_service
+=logfile       mafiapp_suite.add_service.html
+=started       2021-03-10 17:35:09
+=ended         2021-03-10 17:35:09
+=result        ok
+=elapsed       0.0003
+=case          mafiapp_SUITE:friend_by_name
+=logfile       mafiapp_suite.friend_by_name.html
+=started       2021-03-10 17:35:09
+=ended         2021-03-10 17:35:09
+=result        ok
+=elapsed       1.87e-4
+=case          mafiapp_SUITE:friend_with_services
+=logfile       mafiapp_suite.friend_with_services.html
+=started       2021-03-10 17:35:09
+=ended         2021-03-10 17:35:09
+=result        ok
+=elapsed       7.05e-4
+=case          mafiapp_SUITE:friend_by_expertise
+=logfile       mafiapp_suite.friend_by_expertise.html
+=started       2021-03-10 17:35:09
+=ended         2021-03-10 17:35:09
+=result        ok
+=elapsed       4.64e-4
+=case          mafiapp_SUITE:end_per_suite
+=logfile       mafiapp_suite.end_per_suite.html
+=started       2021-03-10 17:35:09
+=ended         2021-03-10 17:35:09
+=result        ok
+=elapsed       0.006995
+=group_time    0.281s
+=== TEST COMPLETE, 4 ok, 0 failed of 4 test cases
+
+=finished      2021-03-10 17:35:09
+=failed        0
+=successful    4
+=user_skipped  0
+=auto_skipped  0

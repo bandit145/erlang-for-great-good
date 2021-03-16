@@ -1,0 +1,49 @@
+=== Suite started at 2021-03-10 13:01:34
+=== Starting test, 1 test cases
+=cases         1
+=user          pbove
+=host          pbove
+=hosts         pbove 
+=emulator_vsn  11.1.7
+=emulator      beam
+=otp_release   23
+=started       2021-03-10 13:01:34
+=case          mafiapp_SUITE:init_per_suite
+=logfile       mafiapp_suite.init_per_suite.html
+=started       2021-03-10 13:01:34
+=ended         2021-03-10 13:01:34
+=result        ok
+=elapsed       0.133226
+=case          mafiapp_SUITE:add_service
+=logfile       mafiapp_suite.add_service.html
+=started       2021-03-10 13:01:34
+=ended         2021-03-10 13:01:34
+=result        failed: {aborted,{no_exists,mafiapp_friends}}, [{mnesia,
+                                                                wrap_trans,
+                                                                503},
+                                                               {mafiapp_SUITE,
+                                                                add_service,
+                                                                28},
+                                                               {test_server,
+                                                                ts_tc,1754},
+                                                               {test_server,
+                                                                run_test_case_eval1,
+                                                                1263},
+                                                               {test_server,
+                                                                run_test_case_eval,
+                                                                1195}]
+=== *** FAILED test case 1 of 1 ***
+=case          mafiapp_SUITE:end_per_suite
+=logfile       mafiapp_suite.end_per_suite.html
+=started       2021-03-10 13:01:34
+=ended         2021-03-10 13:01:34
+=result        ok
+=elapsed       0.005628
+=group_time    0.190s
+=== TEST COMPLETE, 0 ok, 1 failed of 1 test cases
+
+=finished      2021-03-10 13:01:34
+=failed        1
+=successful    0
+=user_skipped  0
+=auto_skipped  0
